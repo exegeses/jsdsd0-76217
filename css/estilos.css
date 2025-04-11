@@ -1,0 +1,39 @@
+body{
+    background-color: hsl(180, 20%, 16%);
+    color: hsl(180, 90%, 80%);
+    font-family: sans-serif;
+    font-size: 32px;
+}
+main{
+    width: 768px;
+    margin: auto;
+}
+#contenedor{
+    background-color: hsl(180, 20%, 8%);
+    padding: 8px 24px;
+    border-radius: 12px;
+    font-size: 40px;
+    margin: 8px 0px;
+}
+
+nav{
+    margin: 32px 0px;
+}
+    nav a{
+        background-color: hsl(180, 50%, 60%);
+        border-radius: 8px;
+        padding: 6px 24px;
+        text-decoration: none;
+        color: hsl(180, 20%, 4%);
+    }
+    nav a:hover{
+        box-shadow: 0px 0px 8px hsl(180, 50%, 80%);
+    }
+#caja{
+    width: 256px;
+    height: 256px;
+    background-color: hsl(180, 30%, 60%);
+    border-radius: 8px;
+    padding: 24px;
+    color: hsl(180, 20%, 4%);
+}
