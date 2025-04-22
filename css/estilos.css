@@ -36,4 +36,5 @@ nav{
     border-radius: 8px;
     padding: 24px;
     color: hsl(180, 20%, 4%);
+    transition: 500ms;
 }
