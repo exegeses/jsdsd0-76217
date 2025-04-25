@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    background-color: #4a3e47;
+    color: #fff;
+}
+main{
+    background-color: hsl(314, 10%, 20%);
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+article{
+    background-color: hsl(314, 10%, 10%);
+    border: 1px solid hsl(314, 10%, 50%);;
+    padding: 24px;
+}
+#item1{
+    color: #ff0;
+    font-size: 36px;
+}
+
+#item3{
+    color: #00ff66;
+    font-size: 36px;
+}
+    #item3 span{
+        background-color: #9f0f0f;
+    }
