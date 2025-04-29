@@ -1,0 +1,22 @@
+{
+  "mclaren": [
+    {
+      "nombrepiloto": "Lando Norris",
+      "numero": 4
+    },
+    {
+      "nombrepiloto": "Oscar Piastri",
+      "numero": 81
+    }
+  ],
+  "redbull": [
+    {
+      "nombrepiloto": "Max Verstappen",
+      "numero": 1
+    },
+    {
+      "nombrepiloto": "Yuki Tsunoda",
+      "numero": 30
+    }
+  ]
+}

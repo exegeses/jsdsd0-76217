@@ -22,7 +22,7 @@ btn.addEventListener(
 
 btn.addEventListener(
         'mouseout',
-        function()
+        ()=>
         {
             contenedor.textContent = 'reposo'
         }
