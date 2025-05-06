@@ -9,12 +9,12 @@ function verFecha()
     // día de mes de 1 a 31
     let diaMes = fecha.getDate()
         diaMes = diaMes < 10 ? '0'+diaMes : diaMes
-    // numero de mes actual
-    let mes = fecha.getMonth()+1
+    // numero de mes actual de 0 a 11
+    let mes = fecha.getMonth() + 1
         mes = mes < 10 ? '0'+mes : mes
     let anio = fecha.getFullYear()
 
-    contFecha.textContent = diaMes +'/'+ mes +'/'+ anio;
+    contFecha.textContent = diaMes +'/'+ mes +'/'+ anio
 
 }
 verFecha()
