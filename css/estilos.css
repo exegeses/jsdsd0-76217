@@ -8,7 +8,8 @@ main{
     width: 768px;
     margin: auto;
 }
-#contenedor{
+#contenedor, #contFecha
+{
     background-color: hsl(180, 20%, 8%);
     padding: 8px 24px;
     border-radius: 12px;
