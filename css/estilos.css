@@ -39,3 +39,22 @@ nav{
     color: hsl(180, 20%, 4%);
     transition: 500ms;
 }
+
+#rotador{
+    margin: 8px 0px;
+    padding: 8px 24px;
+    background-color: hsl(180, 20%, 8%);
+    border-radius: 12px;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+    #rotador img{
+        filter: invert();
+        cursor: pointer;
+        transition: 500ms;
+    }
+    #rotador img:hover{
+        scale: 1.3;
+    }
